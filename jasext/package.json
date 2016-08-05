@@ -1,0 +1,21 @@
+{
+    "name": "jasext",
+    "displayName": "jasext",
+    "description": "Extension for visual studio code for jasmine code snippets",
+    "version": "0.0.1",
+    "publisher": "Surya",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

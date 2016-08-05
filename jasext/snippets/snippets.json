@@ -1,0 +1,398 @@
+{
+	"ts": {
+		"prefix": "ts",
+		"body": "describe('${0:desc here}', function () {\n\n    beforeEach(module('${1:app}'));\n\n    beforeEach(inject(function (${2:yourApi}) {\n\n    }));\n\n    it('${3:should do this...}', function () {\n\n    });\n\n});",
+		"description": "describe",
+		"scope": "source.js"
+	},
+	"ae": {
+		"prefix": "ae",
+		"body": "\r\nafterEach(function() {\r\n\t$1\r\n});\r\n\t",
+		"description": "afterEach",
+		"scope": "source.js"
+	},
+	"aee": {
+		"prefix": "aee",
+		"body": "\r\nafterEach(function () {\r\n  $1\r\n});\r\n  ",
+		"description": "afterEach",
+		"scope": "source.js"
+	},
+	"be": {
+		"prefix": "be",
+		"body": "\r\nbeforeEach(function() {\r\n\t$1\r\n});\r\n\t",
+		"description": "beforeEach",
+		"scope": "source.js"
+	},
+	"bee": {
+		"prefix": "bee",
+		"body": "\r\nbeforeEach(function ()  {\r\n  $1\r\n});\r\n  ",
+		"description": "beforeEach",
+		"scope": "source.js"
+	},
+	"ca": {
+		"prefix": "ca",
+		"body": "${1:spy}.calls.all()\r\n\t",
+		"description": "spy.calls.all",
+		"scope": "source.js"
+	},
+	"caa": {
+		"prefix": "caa",
+		"body": "${1:spy}.calls.allArgs()\r\n\t",
+		"description": "spy.calls.allArgs",
+		"scope": "source.js"
+	},
+	"ca1": {
+		"prefix": "ca",
+		"body": "${1:spy}.calls.any()\r\n\t",
+		"description": "spy.calls.any",
+		"scope": "source.js"
+	},
+	"caf": {
+		"prefix": "caf",
+		"body": "${1:spy}.calls.argsFor(${2:call number})\r\n\t",
+		"description": "spy.calls.argsFor",
+		"scope": "source.js"
+	},
+	"cc": {
+		"prefix": "cc",
+		"body": "${1:spy}.calls.count()\r\n\t",
+		"description": "spy.calls.count",
+		"scope": "source.js"
+	},
+	"cf": {
+		"prefix": "cf",
+		"body": "${1:spy}.calls.first()\r\n\t",
+		"description": "spy.calls.first",
+		"scope": "source.js"
+	},
+	"cmr": {
+		"prefix": "cmr",
+		"body": "${1:spy}.calls.mostRecent()\r\n\t",
+		"description": "spy.calls.mostRecent",
+		"scope": "source.js"
+	},
+	"cr": {
+		"prefix": "cr",
+		"body": "${1:spy}.calls.reset()\r\n\t",
+		"description": "spy.calls.reset",
+		"scope": "source.js"
+	},
+	"cs": {
+		"prefix": "cs",
+		"body": "jasmine.createSpy('${1:name}');$0",
+		"description": "createSpy",
+		"scope": "source.js"
+	},
+	"cso": {
+		"prefix": "cso",
+		"body": "jasmine.createSpyObj('${1:spy name}', ['${2:method name}'$3]);$0",
+		"description": "createSpyObj",
+		"scope": "source.js"
+	},
+	"desc": {
+		"prefix": "desc",
+		"body": "\r\ndescribe('${1:Name of the group}', function() {\r\n\t$2\r\n});\r\n\t",
+		"description": "describe",
+		"scope": "source.js"
+	},
+	"desce": {
+		"prefix": "desce",
+		"body": "\r\ndescribe('${1:Name of the group}', function ()  {\r\n  $2\r\n});\r\n  ",
+		"description": "describe",
+		"scope": "source.js"
+	},
+	"exp": {
+		"prefix": "exp",
+		"body": "expect($1)$0",
+		"description": "expect",
+		"scope": "source.js"
+	},
+	"fdesc": {
+		"prefix": "fdesc",
+		"body": "\r\nfdescribe('${1:Name of the group}', function() {\r\n    $2\r\n});\r\n    ",
+		"description": "focused describe",
+		"scope": "source.js"
+	},
+	"fdesce": {
+		"prefix": "fdesce",
+		"body": "\r\nfdescribe('${1:Name of the group}', function ()  {\r\n    $2\r\n});\r\n    ",
+		"description": "focused describe",
+		"scope": "source.js"
+	},
+	"fit": {
+		"prefix": "fit",
+		"body": "\r\nfit('${1:should behave...}', function() {\r\n    $2\r\n});\r\n    ",
+		"description": "focused it",
+		"scope": "source.js"
+	},
+	"fite": {
+		"prefix": "fite",
+		"body": "\r\nfit('${1:should behave...}', function ()  {\r\n    $2\r\n});\r\n    ",
+		"description": "focused it",
+		"scope": "source.js"
+	},
+	"it": {
+		"prefix": "it",
+		"body": "\r\nit('${1:should behave...}', function() {\r\n\t$2\r\n});\r\n\t",
+		"description": "it",
+		"scope": "source.js"
+	},
+	"ite": {
+		"prefix": "ite",
+		"body": "\r\nit('${1:should behave...}', function ()  {\r\n  $2\r\n});\r\n  ",
+		"description": "it",
+		"scope": "source.js"
+	},
+	"any": {
+		"prefix": "any",
+		"body": "jasmine.any($1)$0",
+		"description": "jasmine.any",
+		"scope": "source.js"
+	},
+	"oc": {
+		"prefix": "oc",
+		"body": "jasmine.objectContaining({'${1:key}': ${2:value}\\})$0",
+		"description": "jasmine.objectContaining",
+		"scope": "source.js"
+	},
+	"nb": {
+		"prefix": "nb",
+		"body": "expect($1).not.toBe($2);$0\r\n\t",
+		"description": "not.toBe",
+		"scope": "source.js"
+	},
+	"nct": {
+		"prefix": "nct",
+		"body": "expect($1).not.toBeCloseTo(${2:number}, ${3:delta});$0\r\n\t",
+		"description": "not.toBeCloseTo",
+		"scope": "source.js"
+	},
+	"nd": {
+		"prefix": "nd",
+		"body": "expect($1).not.toBeDefined();$0\r\n\t",
+		"description": "not.toBeDefined",
+		"scope": "source.js"
+	},
+	"nf": {
+		"prefix": "nf",
+		"body": "expect($1).not.toBeFalsy();$0\r\n\t",
+		"description": "not.toBeFalsy",
+		"scope": "source.js"
+	},
+	"ngt": {
+		"prefix": "ngt",
+		"body": "expect($1).not.toBeGreaterThan($2);$0\r\n\t",
+		"description": "not.toBeGreaterThan",
+		"scope": "source.js"
+	},
+	"nlt": {
+		"prefix": "nlt",
+		"body": "expect($1).not.toBeLessThan($2);$0\r\n\t",
+		"description": "not.toBeLessThan",
+		"scope": "source.js"
+	},
+	"nn": {
+		"prefix": "nn",
+		"body": "expect($1).not.toBeNull();$0\r\n\t",
+		"description": "not.toBeNull",
+		"scope": "source.js"
+	},
+	"nt": {
+		"prefix": "nt",
+		"body": "expect($1).not.toBeTruthy();$0\r\n\t",
+		"description": "not.toBeTruthy",
+		"scope": "source.js"
+	},
+	"nu": {
+		"prefix": "nu",
+		"body": "expect($1).not.toBeUndefined();$0\r\n\t",
+		"description": "not.toBeUndefined",
+		"scope": "source.js"
+	},
+	"nc": {
+		"prefix": "nc",
+		"body": "expect(${1:array}).not.toContain(${2:item});$0\r\n\t",
+		"description": "not.toContain",
+		"scope": "source.js"
+	},
+	"ne": {
+		"prefix": "ne",
+		"body": "expect($1).not.toEqual($2);$0\r\n\t",
+		"description": "not.toEqual",
+		"scope": "source.js"
+	},
+	"nm": {
+		"prefix": "nm",
+		"body": "expect($1).not.toMatch($2);$0\r\n\t",
+		"description": "not.toMatch",
+		"scope": "source.js"
+	},
+	"nt1": {
+		"prefix": "nt",
+		"body": "expect($1).not.toThrow();$0\r\n\t",
+		"description": "not.toThrow",
+		"scope": "source.js"
+	},
+	"scf": {
+		"prefix": "scf",
+		"body": "spyOn(${1:object}, '${2:method}').and.callFake(${3:function() \\{\r\n    $4\r\n\\}});$0\r\n    ",
+		"description": "spyOn.and.callFake",
+		"scope": "source.js"
+	},
+	"scfe": {
+		"prefix": "scfe",
+		"body": "spyOn(${1:object}, '${2:method}').and.callFake(${3:function ()  \\{\r\n    $4\r\n\\}});$0\r\n    ",
+		"description": "spyOn.and.callFake",
+		"scope": "source.js"
+	},
+	"sct": {
+		"prefix": "sct",
+		"body": "spyOn(${1:object}, '${2:method}').and.callThrough();$0",
+		"description": "spyOn.and.callThrough",
+		"scope": "source.js"
+	},
+	"srv": {
+		"prefix": "srv",
+		"body": "spyOn(${1:object}, '${2:method}').and.returnValue('${3:value}');$0",
+		"description": "spyOn.and.returnValue",
+		"scope": "source.js"
+	},
+	"ss": {
+		"prefix": "ss",
+		"body": "spyOn(${1:object}, '${2:method}').and.stub();$0",
+		"description": "spyOn.and.stub",
+		"scope": "source.js"
+	},
+	"ste": {
+		"prefix": "ste",
+		"body": "spyOn(${1:object}, '${2:method}').and.throwError('${3:error}');$0",
+		"description": "spyOn.and.throwError",
+		"scope": "source.js"
+	},
+	"so": {
+		"prefix": "so",
+		"body": "spyOn(${1:object}, '${2:method}')$3;$0\r\n\t",
+		"description": "spyOn",
+		"scope": "source.js"
+	},
+	"tb": {
+		"prefix": "tb",
+		"body": "expect($1).toBe($2);$0\r\n\t",
+		"description": "toBe",
+		"scope": "source.js"
+	},
+	"tbct": {
+		"prefix": "tbct",
+		"body": "expect($1).toBeCloseTo(${2:number}, ${3:delta});$0\r\n\t",
+		"description": "toBeCloseTo",
+		"scope": "source.js"
+	},
+	"tbd": {
+		"prefix": "tbd",
+		"body": "expect($1).toBeDefined();$0\r\n\t",
+		"description": "toBeDefined",
+		"scope": "source.js"
+	},
+	"tbf": {
+		"prefix": "tbf",
+		"body": "expect($1).toBeFalsy();$0\r\n\t",
+		"description": "toBeFalsy",
+		"scope": "source.js"
+	},
+	"tbgt": {
+		"prefix": "tbgt",
+		"body": "expect($1).toBeGreaterThan($2);$0\r\n\t",
+		"description": "toBeGreaterThan",
+		"scope": "source.js"
+	},
+	"tblt": {
+		"prefix": "tblt",
+		"body": "expect($1).toBeLessThan($2);$0\r\n\t",
+		"description": "toBeLessThan",
+		"scope": "source.js"
+	},
+	"tbn": {
+		"prefix": "tbn",
+		"body": "expect($1).toBeNull();$0\r\n\t",
+		"description": "toBeNull",
+		"scope": "source.js"
+	},
+	"tbt": {
+		"prefix": "tbt",
+		"body": "expect($1).toBeTruthy();$0\r\n\t",
+		"description": "toBeTruthy",
+		"scope": "source.js"
+	},
+	"tbu": {
+		"prefix": "tbu",
+		"body": "expect($1).toBeUndefined();$0\r\n\t",
+		"description": "toBeUndefined",
+		"scope": "source.js"
+	},
+	"tc": {
+		"prefix": "tc",
+		"body": "expect(${1:array}).toContain(${2:item});$0\r\n\t",
+		"description": "toContain",
+		"scope": "source.js"
+	},
+	"te": {
+		"prefix": "te",
+		"body": "expect($1).toEqual($2);$0\r\n\t",
+		"description": "toEqual",
+		"scope": "source.js"
+	},
+	"thbc": {
+		"prefix": "thbc",
+		"body": "expect($1).toHaveBeenCalled();$0\r\n\t",
+		"description": "toHaveBeenCalled",
+		"scope": "source.js"
+	},
+	"thbcw": {
+		"prefix": "thbcw",
+		"body": "expect($1).toHaveBeenCalledWith(${2:params});$0\r\n\t",
+		"description": "toHaveBeenCalledWith",
+		"scope": "source.js"
+	},
+	"tm": {
+		"prefix": "tm",
+		"body": "expect($1).toMatch($2);$0\r\n\t",
+		"description": "toMatch",
+		"scope": "source.js"
+	},
+	"tt": {
+		"prefix": "tt",
+		"body": "expect($1).toThrow();$0\r\n\t",
+		"description": "toThrow",
+		"scope": "source.js"
+	},
+	"tte": {
+		"prefix": "tte",
+		"body": "expect($1).toThrowError(${2:error});$0",
+		"description": "toThrowError",
+		"scope": "source.js"
+	},
+	"xdesc": {
+		"prefix": "xdesc",
+		"body": "\r\nxdescribe('${1:Name of the group}', function() {\r\n\t$2\r\n});\r\n\t",
+		"description": "xdescribe",
+		"scope": "source.js"
+	},
+	"xdesce": {
+		"prefix": "xdesce",
+		"body": "\r\nxdescribe('${1:Name of the group}', function ()  {\r\n  $2\r\n});\r\n  ",
+		"description": "xdescribe",
+		"scope": "source.js"
+	},
+	"xit": {
+		"prefix": "xit",
+		"body": "\r\nxit('${1:should behave...}', function() {\r\n\t$2\r\n});\r\n\t",
+		"description": "xit",
+		"scope": "source.js"
+	},
+	"xite": {
+		"prefix": "xite",
+		"body": "\r\nxit('${1:should behave...}', function ()  {\r\n  $2\r\n});\r\n  ",
+		"description": "xit",
+		"scope": "source.js"
+	}
+}
