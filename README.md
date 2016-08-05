@@ -12,7 +12,7 @@
 
 ## Snippets
 
-Below is a list of all snippets currently supported on this package and the triggers of each one. The ** (hit tab)** means the `TAB` key.
+Below is a list of all snippets currently supported on this package and the triggers of each one.
 
 ### Specs
 - `describe`: desc (hit tab)
