@@ -15,6 +15,7 @@
 Below is a list of all snippets currently supported on this package and the triggers of each one.
 
 ### Specs
+- `test suit`:ts (hit tab)
 - `describe`: desc (hit tab)
 - `xdescribe`: xdesc (hit tab)
 - `fdescribe`: fdesc (hit tab)
